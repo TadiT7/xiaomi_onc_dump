@@ -1,0 +1,35 @@
+[
+    {
+        "subject": "oncindia",
+        "international": true,
+        "hwversion": [
+            "1.0.0",
+            "1.9.0",
+            "1.10.0",
+            "1.19.0",
+            "1.20.0",
+            "1.30.0",
+            "1.39.0",
+            "1.40.0",
+            "1.50.0",
+            "1.59.0",
+            "1.60.0",
+            "1.69.0"
+        ],
+        "guide_sort": "0,cfd320b2-e40f-42b1-91db-1ca8e9394352",
+        "local": {
+            "id": "0"
+        }
+    },
+    {
+      "subject": "oncnormal",
+      "international": true,
+      "hwversion": [
+        "*"
+      ],
+      "guide_sort": "0,cfd320b2-e40f-42b1-91db-1ca8e9394352",
+      "local": {
+          "id": "0"
+      }
+    }
+]

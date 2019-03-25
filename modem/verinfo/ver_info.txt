@@ -1,0 +1,22 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.VT.3.0-00130-00000-1", 
+        "apps": "LA.UM.7.6.2.r1-04200-89xx.0-1.184513.1.186182.1", 
+        "boot": "BOOT.BF.3.3.2-00064-M8953JAAAANAZB-1", 
+        "common": "SDM632.LA.1.0.1-00035-STD.PROD-2.186182.0.187928.1", 
+        "cpe": "CPE.TSF.3.0-00002-W9335AAAAAAAZQ-4", 
+        "glue": "GLUE.SDM632.1.0.1-00007-NOOP_TEST-1", 
+        "modem": "MPSS.TA.3.0.c1-00380-8953_GEN_PACK-1.183617.1.187928.3", 
+        "rpm": "RPM.BF.2.4-00066-M8953AAAAANAZR-2", 
+        "tz": "TZ.BF.4.0.5-00136.1-M8937AAAAANAZT-1", 
+        "video": "VIDEO.VE.4.4-00043-PROD-1", 
+        "wapi": "WLAN_ADDON.HL.1.0-00031-CNSS_RMZ_WAPI-1", 
+        "wcnss": "CNSS.PR.4.0.3-00180-M8953BAAAANAZW-1"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "SDM632.LA.1.0.1-00035-STD.PROD-2.186182.0.187928.1", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2019-02-16 13:20:38"
+    }, 
+    "Version": "1.0"
+}
