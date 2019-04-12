@@ -1,0 +1,15 @@
+on init
+    #pstore/ramoops previous console log
+    mount pstore pstore /sys/fs/pstore
+    chown system log /sys/fs/pstore/console-ramoops
+    chmod 0444 /sys/fs/pstore/console-ramoops
+    chown system log /sys/fs/pstore/console-ramoops-0
+    chmod 0444 /sys/fs/pstore/console-ramoops-0
+    chown system log /sys/fs/pstore/pmsg-ramoops-0
+    chmod 0444 /sys/fs/pstore/pmsg-ramoops-0
+
+on property:vendor.kpdpwr.reset.enabled=0
+    write /sys/devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,power-on@800/kpdpwr_reset 0
+
+on property:vendor.kpdpwr.reset.enabled=1
+    write /sys/devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,power-on@800/kpdpwr_reset 1
